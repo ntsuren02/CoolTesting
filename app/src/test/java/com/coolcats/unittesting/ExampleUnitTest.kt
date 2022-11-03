@@ -1,4 +1,4 @@
-package com.coolcats.cooltesting102
+package com.coolcats.unittesting
 
 import org.junit.Test
 

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">CoolTesting102</string>
+    <string name="app_name">CoolTesting</string>
+    <string name="empty_text">Please enter text! No empty text.</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.coolcats.cooltesting102
+package com.coolcats.unittesting
 
 import org.junit.After
 import org.junit.Before
@@ -22,9 +22,10 @@ class CalculatorTest {
     }
 
     @Test
-    fun testSubtracation(){
+    fun `test code to make sure subtraction works`(){
 
-        assertEquals(6.0, calculator?.subtraction(9,3))
+        assertEquals(4.0, calculator?.subtraction(7,3))
+        assertEquals(5.0, calculator?.subtraction(12,7))
     }
 
     @Test
